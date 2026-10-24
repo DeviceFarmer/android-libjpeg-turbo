@@ -1,3 +1,6 @@
+> [!WARNING]
+> This repository is archived and no longer maintained. It is kept readable because [minicap](https://github.com/DeviceFarmer/minicap) uses it as a git submodule for the native build, which is frozen at Android API 30 and below.
+
 # libjpeg-turbo for Android
 
 This repository provides a working Android.mk build configuration for [libjpeg-turbo](http://libjpeg-turbo.virtualgl.org/), which means that you'll be able to build your app with `ndk-build` instead of resorting to toolchain trickery. Just add this repository as a Git submodule and you should be good to go.
